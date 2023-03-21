@@ -1,0 +1,183 @@
+*{box-sizing: border-box; margin: 0%; padding: 0%;}
+        
+
+        .topbar
+{
+        height: 40px;
+        width: 100%;
+        background: #000;
+        display: flex;
+        
+        
+        
+}
+.button
+{
+    width: 65%;
+    padding: 10px;
+    margin-left: 40px;
+    letter-spacing: 10px;
+}
+
+.right
+{
+    color: white;
+    width: 35%;
+   padding: 10px;
+   /* margin-left: 10px; */
+}
+.right p
+{
+    display: inline;
+    margin-left: 60px;
+    /* text-align: center; */
+}
+
+
+        .header
+{
+        height: 80px;
+        width: 100%;
+        background:#23232a;
+        display:flex;
+    
+    }
+
+
+.header .logo
+
+{
+    height: 80px;
+    width: 20%;
+   background:#23232a;
+   text-align: center;
+   padding: 15px;
+}
+
+.header .nav
+
+{
+    height: 80px;
+    width: 60%;
+    /* background:green; */
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+
+   
+}
+
+.nav li
+{
+           
+            display: inline;
+            margin-right: 30px;
+            position: relative;
+}
+
+
+a
+ {
+            text-decoration: none;
+            font-size: 13px;
+            color: white;
+            font-weight:bold;
+            font-family:'Poppins', sans-serif;
+
+ }
+
+
+
+.header .end
+
+{
+    height: 80px;
+    width: 20%;
+   background:darkblue;
+  
+}
+
+
+.content
+{
+height: 500px;
+width: 100%;
+/* background: yellow; */
+
+}
+.fouradd
+{
+    height: 300px;
+    width: 100%;
+    background: cadetblue;
+    display: flex;
+}
+
+.one
+{
+    height: 300px;
+    width: 25%;
+    border: 2px solid red;
+    background: yellowgreen;
+    position: relative;
+}
+    
+ .upper
+{
+    height:200px;
+    background: pink;
+    position: absolute;
+
+}
+
+
+
+.lower
+{
+    height: 100px;
+    background: coral;
+    position: absolute;
+    top: 0px;
+    left: 0;
+
+}
+
+.two
+{
+    height: 300px;
+    width: 25%;
+    border: 2px solid red;
+}
+.three
+{
+    height: 300px;
+    width: 25%;
+    border: 2px solid red;
+}
+.four
+{
+    height: 300px;
+    width: 25%;
+    border: 2px solid red;
+}
+
+.shopnow
+{height: 40px;
+width: 120px;
+background: #000;
+font-size: 13px;
+color: white;
+font-weight:bold;
+border-radius: 5px;
+margin: 50%;
+text-align: center;
+padding: 12px;
+font-family:'Poppins', sans-serif;
+}
+
+.shopnow:hover
+{
+    background: white;
+    color: grey;
+}
